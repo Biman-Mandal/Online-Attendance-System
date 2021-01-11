@@ -1,0 +1,61 @@
+.th1{
+	color: white;
+	width: 150px;
+	height: 30px;
+	border-left: hidden;
+	border-right: hidden;
+	border-radius: 50px;
+	background-color:rgba(255,0,0,0.9) ;
+	box-shadow: 0px 0px 1px 0.2px white;
+	font-family: Segoe UI Black;
+
+}
+.input1{
+
+	color: white;
+	width: 300px;
+	height: 30px;
+	border-left: hidden;
+	border-right: hidden;
+	border-radius: 50px;
+	text-align: center;
+	background-color: rgba(102,102,153,0.7);
+	color: white;
+	font-weight: bold;
+	font-family: Segoe UI Black;
+
+}
+.bottom11{
+
+	width: 100px;
+	height: 35px;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 50px;
+	background-color:rgba(255,0,0,0.9)  ;
+	color: white;
+	font-family: Segoe UI Black;
+
+
+}
+.bottom11:hover{
+
+   box-shadow: 0px 0px 2px 0.3px white;
+   background-color: black;
+   transition: 1s ease; 
+   color: white;
+   font-weight: bold;
+   background-color: rgba(102,102,204,0.9);
+
+}
+.table11{
+   
+    border-collapse: separate;
+    border-spacing: 100px 30px;
+    border:hidden;
+    border-radius: 100px;
+    width: 700px;
+    height: 300px;
+    text-align: center;
+
+}

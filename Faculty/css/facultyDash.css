@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Code|Noto+Sans+HK&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pridi&display=swap');
+
+.table2{
+   
+ 
+ border-spacing: 5px 13px;
+ width:1050px; 
+ height: 50px;
+ margin-left: 200px; 
+ margin-top: 50px;
+ background-color:rgba(0,0,0,0.5) ;
+ color: white;
+ border-radius: 8px;
+ box-shadow: 0 10px 30px rgba(0,0,0,1);
+ overflow: auto;
+
+}
+.td2{
+
+  color: white;
+ 
+ 
+  
+}
+.td1{
+	background-image: url(img10.jpg);
+	color: white;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px 0.8px white;
+	margin-bottom: 5px;
+	
+	
+	font-family: 'Pridi', serif;
+	
+
+}
+.ndtable{
+	font-family: Rockwell;
+	border-radius: 30px;
+	height: 1.6em ;
+	
+	box-shadow: 0 10px 30px rgba(0,0,0,1);
+	background-color: rgba(17,17,17,0.9);
+	font-weight: bold;
+	color: white;
+	opacity: 0.8;
+}
+
+
+
+
+/* Present Absent Design*/
+
+.box{
+   margin-left: 34px;
+   width: 180px;
+   padding: 1px;
+   position: absolute;
+   background: #000;
+   color: #fff;
+   text-align: center;
+   box-shadow: 0 10px 30px rgba(0,0,0,1);
+   border-radius: 20px;
+   overflow: hidden;
+   font-family: 'Pridi', serif;
+}
+.box:before
+{
+	content: '';
+	position: absolute;
+	
+	left: -50%;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.05);
+	transform: skewX(-3deg);
+	pointer-events: none;
+}
+.box: label{
+	position: relative;
+	cursor: pointer;
+}
+.box label input{
+	display: none;
+}
+.box label span{
+	content: '';
+	position: relative;
+	display: inline-block;
+	margin: 10px 5px;
+	width: 55px;
+	padding: 4px;
+	background: #000;
+    border: 1px solid #444;
+    color: #444;
+    cursor: pointer;
+    border-radius: 5px;
+
+
+
+}
+.box label input:checked ~ span
+{
+	color: #fff;
+	border: 1px solid #008eff;
+
+}
+.box label input:checked ~ span:before
+{
+   content: '';
+   width: 100%;
+   height:100%;
+   
+   background: #008eff; 
+   z-index: -1;
+   filter: blur(10px);
+
+	}
+.box label input:checked ~ span.Present
+{
+	color: #62ff00;
+	border-color: #62ff00;
+    box-shadow: inset 0 0 10px  #62ff00;
+}
+.box label input:checked ~ span.Absent
+{
+	color: #ff0011;
+	border-color: #ff0011;
+    box-shadow: inset 0 0 10px  #ff0011;
+}
+.box label input:checked ~ span.Present:before,
+.box label input:checked ~ span.Absent:after
+{
+	border-color: #62ff00;
+}
+
+
+
+
+
+/*Select Option Design*/ 
+
+
+
+.box1{
+	margin-left: 35px;
+	position: absolute;
+	border-radius: 10px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(0,0,0,1);
+    width: 150px;
+    height: 40px;
+	
+}
+.box1 select
+{
+	text-align: center;
+	background: #000;
+	color:#fff;
+	padding: 5px;
+	width: 200px;
+	height: 50px;
+	border: none;
+	font-size: 15px;
+	box-shadow: 0 5px 25px rgba(0,0,0,.5);
+	font-family: 'PT Sans', sans-serif;
+	outline: none;
+	cursor: pointer;
+
+
+}
+.box1:before
+{  
+	
+	position: absolute;
+	top: 0;
+	left: -50%;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.05);
+	transform: skewX(-3deg);
+	pointer-events: none;
+}
+
+.option{
+
+    display: block;
+    background-color: #353130;
+}
+.option:hover{
+	display: none;
+	background-color: green;
+	border-radius: 10px;
+    border: 1px solid #665F5D ;
+}
+
+/*Select Option Design*/ 
+
+
+/*Select Option Design*/
+.box4{
+	
+	padding: 0 0 0 30px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(0,0,0,1);
+    width: 40px;
+    height: 50px;
+    border-radius: 10px;
+	
+}
+.option3
+{
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	background: #000;
+	color:#fff;
+	padding: 5px;
+	width: 80px;
+	height: 50px;
+	border: none;
+	font-size: 15px;
+	box-shadow: 0 5px 25px rgba(0,0,0,.5);
+	border-radius: 10px;
+	outline: none;
+	cursor: pointer;
+	pointer-events: none;
+
+-webkit-appearance: none;
+appearance: none;
+
+
+}
+.box3{
+	
+	padding: 0 0 0 40px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(0,0,0,1);
+    width: 1px;
+    height: 50px;
+    border-radius: 10px;
+
+	
+}
+.box3 select
+{
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	background: #000;
+	color:#fff;
+	padding: 5px;
+	width: 130px;
+	height: 50px;
+	border: none;
+	font-size: 15px;
+	box-shadow: 0 5px 25px rgba(0,0,0,.5);
+	border-radius: 10px;
+	outline: none;
+	cursor: pointer;
+	pointer-events: none;
+
+-webkit-appearance: none;
+appearance: none;
+
+
+}
+.box3:before
+{  
+	
+	position: absolute;
+	top: 0;
+	
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.05);
+	transform: skewX(-3deg);
+	pointer-events: none;
+}
+
+.option2{
+    border-radius: 10px;
+    display: block;
+    background-color: #353130;
+    padding: 
+}
+.option2:hover{
+	display: none;
+	background-color: green;
+	border-radius: 10px;
+    border: 1px solid #665F5D ;
+}
+.box2{
+	
+	
+    background: #000;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(0,0,0,1);
+    width: 210px;
+    height: 50px;
+    border-radius: 10px;
+
+	
+}
+.box2 select
+{
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	background: #000;
+	color:#fff;
+	padding: 5px;
+	width: 200px;
+	height: 50px;
+	border: none;
+	font-size: 15px;
+	box-shadow: 0 5px 25px rgba(0,0,0,.5);
+	
+	outline: none;
+	cursor: pointer;
+
+
+}
+.box2:before
+{  
+	
+	position: absolute;
+	top: 0;
+	
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.05);
+	transform: skewX(-3deg);
+	pointer-events: none;
+}
+
+.option1{
+
+    display: block;
+    background-color: #353130;
+}
+.option1:hover{
+	display: none;
+	background-color: green;
+	border-radius: 10px;
+    border: 1px solid #665F5D ;
+}
+
+
+/* Submit bottom Design*/
+
+
+
+.bottom10{
+
+    background-image: url(img10.jpg);
+	color: #bfbfbf;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px 0.8px white;
+	margin-bottom: 5px;
+	border-radius: 8px;
+	animation: slider 20s infinite linear;
+	font-family: 'Pridi', serif;
+
+
+}
+
+.bottom{
+
+   margin-top: 10px;
+   margin-left:590px;
+   
+	
+	color: #F2F3F4 ;
+	border: 1px hidden white;
+	border-color: black;
+	height: 20px;
+	font-size: 1em;
+	padding:0 3em;
+	cursor: pointer;
+	background-color: rgba(38, 12, 12, 0.62);
+	border-radius: 8px;
+	font-weight: 50;
+	font-weight: bold;
+	font-family: Rockwell;
+	box-shadow: 0 10px 30px rgba(0,0,0,1);
+
+}
+.bottom:hover{
+   box-shadow: 0px 0px 1px 0.8px black; 
+   background-color: #FF9428;
+   transition: 0.2s ease; 
+}
+.date1{
+	width: 100px;
+}
+
+
+.date2{
+	
+	box-shadow: 0 10px 30px rgba(0,0,0,1);
+	 
+     color: #fff;
+     text-align: center;
+     width: 210px;
+     height: 50px;
+     border-radius: 10px;
+     cursor: pointer;
+    
+     background: rgba(17,17,17,0.8);
+     transform: skewX(-3deg);
+   
+     box-shadow: 0 5px 25px rgba(0,0,0,.5);
+     border: 1px hidden #665F5D ;
+     color: white;
+     font-weight: bold;
+     font-family: 'PT Sans', sans-serif;
+}
+.Teacher{
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	background: #000;
+	color:#fff;
+	padding: 5px;
+	width: 200px;
+	height: 50px;
+	border: none;
+	font-size: 15px;
+	box-shadow: 0 5px 25px rgba(0,0,0,.5);
+	
+	outline: none;
+	cursor: pointer;
+}
+
+
+/*Faculty Welcome msg Design*/
+.login1{
+	font-family: 'Raleway', sans-serif;
+	
+	margin-left: 95px;
+	margin-top: 0.5em;
+	font-size: 20px;
+	color: yellow;
+	display: inline;
+	background-color: rgba(51,0,204,0.7);
+}
+.login2{
+	font-family: 'PT Sans', sans-serif;
+	margin-left: 8px;
+	margin-top: 1em;
+	font-size:30px;
+	color:white;
+	background-color: rgba(51,0,204,0.7);
+	display:inline-block;
+	display: inline;
+	box-shadow: 0 10px 30px 3px;
+}
+.lohin3{
+	font-family: 'Libre Baskerville', serif;
+	margin-left: 300px;
+	margin-top: 1em;
+	font-size: 20px;
+	color:white;
+	box-shadow: 0 10px 30px 3px;
+    padding: 10px 0px 10px 10px;
+    color: #0d0d0d;
+    margin-right:  910px;
+    width: 250px;
+	
+
+}
+.login{
+	margin-top: 1em;
+}
+.take_att{
+    
+    height: 30px;
+	width: 150px;
+	list-style-type: none;
+	text-decoration: none;
+
+	border: 1px solid white;
+	border-color: black;
+    font-size: 0.9em;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 10px;
+	
+    padding: 12px 5px 12px 5px;
+	font-family: 'Pridi', serif;
+	color: black;
+	background-color:#BFC9CA ;
+}
+.take_att:hover{
+   color: #f719ff;
+   box-shadow: 0 10px 30px rgba(0,0,0,1);
+   background-color: rgba(238,238,238,0.7);
+   transition: 0.05s ease; 
+   padding: 12px 5px 12px 5px;
+   
+	
+}

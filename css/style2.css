@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Grenze&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Code|Noto+Sans+HK&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pridi&display=swap');
+
+@charset "utf-8";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	margin-left: 1%;
+	float: left;
+	display: flex;
+	margin-top: 18px;
+	font-family: 'Borg9';
+	color: black;
+	font-size: 1.7em;
+	color: black;
+	
+	
+}
+
+h1 span{
+	display: table-cell;
+	margin: 0;
+	padding: 0;
+	animation: animate 2s linear infinite;
+}
+
+h1 span:nth-child(1)
+{
+	animation-delay:0s;
+}
+
+h1 span:nth-child(2)
+{
+	animation-delay:0.1s;
+}
+
+h1 span:nth-child(3)
+{
+	animation-delay:0.2s;
+}
+
+h1 span:nth-child(4)
+{
+	animation-delay:0.3s;
+}
+
+h1 span:nth-child(5)
+{
+	animation-delay:0.4s;
+}
+h1 span:nth-child(6)
+{
+	animation-delay:0.5s;
+}
+h1 span:nth-child(7)
+{
+	animation-delay:0.6s;
+}
+h1 span:nth-child(8)
+{
+	animation-delay:0.7s;
+}
+h1 span:nth-child(9)
+{
+	animation-delay:0.8s;
+}
+h1 span:nth-child(10)
+{
+	animation-delay:0.9s;
+}
+@keyframes animate{
+	0%,100%{
+		color: white;
+		filter: blur(0px);
+		 text-shadow:          0 0 10px #00b3ff;
+		  text-shadow:         0 0 20px #00b3ff;
+		   text-shadow:        0 0 40px #00b3ff;
+		    text-shadow:       0 0 80px #00b3ff;
+		     text-shadow:      0 0 120px #00b3ff;
+		      text-shadow:     0 0 200px #00b3ff;
+		       text-shadow:    0 0 280px #00b3ff;
+		        text-shadow:   0 0 350px #00b3ff;
+		         text-shadow:  0 0 430px #00b3ff;
+		          text-shadow: 0 0 500px #00b3ff;
+	}
+
+
+	10%,30%
+	{
+		color: black;
+	     filter: blur(0px;);
+	     text-shadow: 0 0 10px none;
+	    
+	}
+
+	30%,50%
+	{
+		color: white;
+		 filter: blur(0px;);
+		  text-shadow: 0 0 10px none;
+	    
+	}
+	50% ,60%
+	{
+		color: white ;
+		 filter:  blur(0px;);
+		  text-shadow: 0 0 10px none;
+	    
+	}
+
+
+	60% ,80%
+	{
+		color: white;
+		 filter:  blur(0px;);
+		  text-shadow: 0 0 10px none;
+	    
+	}
+
+
+	80% ,100%
+	{
+		color:white ;
+		 filter:  blur(0px;);
+		  text-shadow: 0 0 10px none;
+	    
+	}
+
+}
+
+
+.div1{
+	
+	margin-left: -60px;
+	background-image: url(img6.jpg);
+	width: 100%;
+	color: white;
+	padding: 1px 0px 20px 0px;
+    height: 40px;
+    margin: 0px;
+
+	
+}
+.div1 ul
+
+{
+	list-style-type: none;
+}
+
+.div1 ul li{
+	background-image: url(img10.jpg);
+	background-color:rgba(0,0,0,0.6) ;
+	border: 1px hidden white;
+	border-radius: 5px;
+	float: right;
+	line-height: 24px;
+	text-align: center;
+	width: 100px;
+	position: relative;
+	margin-right: 5px;
+	margin-top: 10px;
+	padding: 1px 0px 1px 0px;
+	transition: 1s ease;
+	box-shadow: 0px 0px 3.5px 0.3px white;
+	
+
+    
+}
+.div1 ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	font-weight: bold;
+	font-size: 0.85em;
+    font-family: 'Pridi', serif;
+	padding: 10px 5px 5px 0px;
+    transition: .3s ease;
+
+}
+.div1 ul li a:hover{
+  background-color:white;
+  color: black;
+  font-size: 0.85em;
+  font-family: 'Pridi', serif;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 5px 5px 2px;
+  margin-left: 1px;
+  margin-right: 1px;
+  box-shadow: 0px 0px 0.3px 0.1px black;
+
+  
+  
+
+}
+.div1 ul ul{
+
+
+	position: absolute;
+	display:  none;
+
+}
+.div1 ul li:hover > ul{
+	display: block;
+	-webkit-animation: fadeInText 1.5s;
+  animation: fadeInText 1.5s;
+
+
+
+}
+
+
+.div1 ul ul ul{
+	margin-left:122px;
+	top:-13px;
+	
+
+	
+	}
+.dropdown1{
+	margin-bottom: -9.7px; 
+	top: 0px;
+	opacity: 0.80;
+    
+
+}
+.lol{
+	
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(atten.jpg);
+}
+
+.lol1{
+  
+    width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(atten.jpeg);
+      
+
+}
+.lol2{
+  
+    width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(img18.jpg);
+      
+
+}
+.dropdown2{
+	margin-bottom: -8px; 
+	top: 0px;
+}
+.br{
+	background-color:   white;
+	height: 1px
+}
+
+.home1{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 3%  5% 0% 8%;
+	font-size: 18px;
+	color: black;
+}
+.home2{
+	font-family: 'Raleway', sans-serif;
+	margin: 0.5% 0% 0% 8%;
+	font-size: 30px;
+	color:white;
+	background-color:rgba(0,0,0,0.4) ;
+	display:inline-block;
+}
+.home3{
+	font-family: 'Libre Baskerville', serif;
+	margin: 0.5% 0% 0% 1%;
+	font-size: 25px;
+	color:white;
+	display: inline-block;
+
+}
+
+.searchstudent{
+	margin: 5% 0% 0% 18%;
+}
+
+.submit{
+	margin:0% 0% 0% 8%;
+	
+	color: black;
+	border: 1px hidden white;
+	border-color: black;
+	height: 20px;
+	font-size: 1em;
+	padding:0 1em;
+	cursor: pointer;
+	
+	font-family: 'Raleway', sans-serif;
+	font-weight: 50;
+	font-weight: bold;
+}
+.div1 ul li i{
+	margin-right: 8px;
+}
+.div ul li .fas{
+	margin-right: 8px;
+
+}
+
+.fa-arrow-circle-right{
+	float: right;
+	margin-top: 6px;
+}
+.search{
+	margin-left: 100px;
+}
+
+
+
+
+
+.home4{
+	margin:4% 0% 0% 1%;
+	background-color: white;
+	color: black;
+	border: 1;
+	border-color: white;
+	height: 35px;
+	font-size: 1em;
+	padding:0 .1em;
+	cursor: pointer;
+	outline: none;
+	font-family: 'Borg9';
+	font-weight: bold;
+	transition: 0.15s ease;
+	border-radius: 10px;
+    width: 240px;
+    opacity: 0.5;
+    box-shadow: 0px 0px 0.3px 0.1px black;
+	border-right: hidden;
+    border-left: hidden;
+
+}
+
+.home4:hover{
+	  width: 250px;
+	  height: 35px;
+	  margin:4% 0% 0% 2.5%;
+      background-color:black;
+      color: white;
+      font-size: 1em;
+      font-family: 'Borg9';
+      font-weight: bold;
+      border-radius: 10px;
+      box-shadow: 0px 0px 0.3px 0.1px black;
+      opacity: 0.5;
+      border-right: hidden;
+      border-left: hidden;
+      
+  }
+
+
+.home5{
+    
+    
+    box-shadow: 0px 0px 0.3px 0.1px black;
+    margin:1% 0% 0% 1%;
+	background-color: white;
+	color: black;
+	border: 1;
+	border-color: white;
+	height: 35px;
+	font-size: 1em;
+	padding:0 .1em;
+	cursor: pointer;
+	outline: none;
+	font-family: 'Borg9';
+	font-weight: bold;
+	transition: 0.2s ease;
+	border-radius: 10px;
+    width: 240px;
+    opacity: 0.5;
+    border-right: hidden;
+    border-left: hidden;
+}
+
+.home5:hover{
+	  width: 250px;
+	  height: 35px;
+	  margin:1% 0% 0% 2.5%;
+      background-color:black;
+      color: white;
+      font-size: 1em;
+      font-family: 'Borg9';
+      font-weight: bold;
+      border-radius: 10px;
+      box-shadow: 0px 0px 0.3px 0.1px black;
+      border-right: hidden;
+      border-left: hidden;
+      opacity: 0.5;
+      
+  }
+
+
+/*
+ <a href="#">&#9776</a>
+.divimg{
+	width:70%;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	top: 64%;
+	transform: translate(-50%,-50%);
+	background-image: url(img/img1.jpg);
+	background-size: 100% 100%;
+	box-shadow: 1px 2px 10px 5px white;
+	animation: slider 9s infinite linear;
+}
+@keyframes slider{
+    
+    0%{background-image: url(img/img1.jpg);  }
+    25%{ background-image: url(img/img2.jpg); }
+    50%{ background-image: url(img/img3.jpg);  }
+    75%{background-image: url(img/img4.jpg);}
+
+}
+.home5{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 3%  5% 0% 42%;
+	font-size: 18px;
+	color: white;
+}
+.home6{
+	font-family: 'Raleway', sans-serif;
+	margin: 0% 0% 0% 35%;
+	font-size: 35px;
+	color:white;
+	background-color:rgba(0,0,0,0.4) ;
+	display:inline-block;
+	box-shadow: 1px 2px 10px 3px white;
+	animation: slider 3s infinite linear;
+
+}
+.SuperAdminLogin{
+
+    color: white;
+    list-style-type: none;
+    text-decoration: none; 
+    background-color: black;
+	border: 1px solid white;
+	float: left;
+	margin-top: 5px;
+	line-height: 25px;
+	text-align: center;
+	width: 180px;
+	position: relative;
+	margin-left: 25px;
+	padding: 1px 0px 1px 0px;
+	transition: 0.6s ease;
+	box-shadow: 0px 0px 3.5px 0.3px white;
+}
+Other Codes
+<a class='SuperAdminLogin' href="">Super Admin</a>
+/*
+.animate{
+
+   
+
+
+}
+
+
+
+/*
+*
+{
+	margin: 0px;
+    padding: 0px;
+}
+body{
+	margin:0px;
+}
+.div1 ul{
+	list-style: none;
+
+
+}
+
+.div1{
+	width: 100%;
+   
+	background-color: black;
+	color: white;
+	padding: 1px 0px 29px 0px;
+    height: 60px;
+    z-index: 10;
+}
+.div1 ul li{ 
+	background-color: black;
+	color: white;
+	float: right;
+	border: 1px solid #fff;
+    text-align: center;
+    list-style-type: none;
+    width: 120px;
+    line-height: 35px;
+    height: 50px;
+    position: relative;
+    margin-top: 15px;
+    
+    }
+.div1 ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	transition: 0.6s ease;
+    padding: 9px 0px 5px 0px;
+    font-weight: bold;
+    margin: 0.1% 0.1% 0.1% 1%;
+    font-family: 'Libre Baskerville', serif;
+}
+.div1 ul li a:hover{
+  background-color:#566573;
+}
+.div1 ul ul {
+	position: absolute;
+	display:none;
+}
+.div1 ul li:hover > ul{
+	display: block;
+}
+.dropdown1{
+	margin-top: -15px;
+    margin-bottom: -15px;
+}
+.div1 ul ul ul {
+	margin-left: 120px;
+	top: 1px;
+}
+*/

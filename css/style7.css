@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Grenze&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Code|Noto+Sans+HK&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pridi&display=swap');
+.botton{
+	
+	margin:0% 0% 0% 0%;
+	
+	color: black;
+	border: 1px hidden white;
+	border-color: black;
+	height: 20px;
+	font-size: 1em;
+	padding:0 3em;
+	cursor: pointer;
+	
+	border-radius: 8px;
+	font-weight: 50;
+	font-weight: bold;
+	font-family: Rockwell;
+    
+}
+.botton:hover{
+   box-shadow: 0px 0px 1px 0.8px black; 
+   background-color: #FF9428;
+   transition: 1s ease; 
+}
+.botton1{
+	
+	margin:0% 0% 0% 0%;
+	
+	color: #FF9428;
+	border: 1px hidden white;
+	border-color: black;
+	height: 20px;
+	font-size: 1em;
+	padding:0 3em;
+	cursor: pointer;
+	
+	border-radius: 8px;
+	font-weight: 50;
+	font-weight: bold;
+	font-family: Rockwell;
+    
+}
+.botton1:hover{
+   box-shadow: 0px 0px 1px 0.8px white; 
+   background-color: black;
+   transition: 1s ease; 
+}
+.table1{
+	
+	font-family: Rockwell;
+   
+    
+	
+	border-radius: 0px;
+	border-width: 1px;
+    height: 400px;
+	width: 300px;
+	border-right: hidden;
+	border-left: hidden;
+	border-color: black;
+	border-top: hidden;
+	border-bottom: hidden;
+	float: center;
+	margin: 70px 0px 0px 500px;
+	
+
+}
+
+.table2{
+	 font-family: Rockwell;
+	float: left;
+	border-radius: 0px;
+	border-width: 1px;
+	height: 300px;
+	width: 350px;
+	border-right: hidden;
+	border-left: hidden;
+	border-color: black;
+	border-top: hidden;
+	border-bottom: hidden;
+    margin: 100px 0px 0px 700px;
+}
+
+
+table{
+	border-right: hidden;
+	border-left: hidden;
+	border-color: black;
+	border-top: hidden;
+	border-bottom: hidden;
+
+}
+
+.tr1{
+	margin-bottom: 5px;
+	border-radius: 8px;
+	background-image: url(img7.jpg);
+	font-family: 'Righteous', cursive;
+}
+.tr2{
+	background-image: url(img10.jpg);
+	color: #bfbfbf;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px 0.8px white;
+	margin-bottom: 5px;
+	border-radius: 8px;
+	animation: slider 30s infinite linear;
+	font-family: 'Pridi', serif;
+	
+
+}
+
+.tr3{
+	background-image: url(img12.jpg);
+	color: #bfbfbf;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px 0.8px white;
+	margin-bottom: 5px;
+	border-radius: 8px;
+
+}
+.input{
+	border-radius: 8px;
+	text-align: center;
+	font-family: 'Righteous', cursive;
+
+
+}
+
+@keyframes slider{
+    
+    0%{background-image: url(img11.jpg);  }
+    60%{ background-image: url(img6.jpg); }
+    80%{ background-image: url(img10.jpg);  }
+    90%{background-image: url(img6.jpg);}
+
+}

@@ -1,0 +1,146 @@
+.search{
+
+margin: 60px 0px 0px 250px;
+
+}
+.divv{
+
+    height: 600px;
+    width: 1200px;
+    overflow: auto;
+	overflow-x: hidden;
+	margin-top: 85px;
+	margin-left: 150px;
+    border: hidden;
+}
+
+.divvv{
+
+    height: 600px;
+    width: 1200px;
+    overflow: auto;
+	overflow-x: hidden;
+	margin-top: 85px;
+	margin-left: 10px;
+	border: hidden;
+
+}
+.divvvv{
+
+    height: 600px;
+    width: 1100px;
+    overflow: auto;
+	overflow-x: hidden;
+	margin-top: 85px;
+	margin-left: 30px;
+	border: hidden;
+
+}
+.divvvvv{
+	height: 600px;
+    width: 1100px;
+    overflow: auto;
+	overflow-x: hidden;
+	margin-top: 0px;
+	margin-left: 30px;
+	border: hidden;
+}
+.dvv{
+	height: 550px;
+    width: 1100px;
+    overflow: auto;
+	overflow-x: hidden;
+	margin-top: 60px;
+	margin-left: 0px;
+	border: hidden;
+	
+}
+.search1{
+	text-align: center;
+	font-family: 'Righteous', cursive;
+	border-radius: 8px;
+	height: 35px;
+	border: 1px hidden white;
+	box-shadow: 0px 0px 2px 0.8px white; 
+	border-color: black;
+}
+
+
+
+.search2{
+	margin-left: 10px;
+	color: black;
+	border: 1px hidden white;
+	border-color: black;
+	height: 30px;
+	width: 65px;
+	font-size: 0.9em;
+	
+	cursor: pointer;
+	
+	border-radius: 8px;
+	font-weight: 50;
+	font-weight: bold;
+	font-family: Rockwell;
+}
+.search2:hover{
+   box-shadow: 0px 0px 2px 0.8px white; 
+   background-color: skyblue;
+   transition: 1s ease; 
+}
+.table2{
+	border:1px hidden white;
+	border-radius: 10px;
+	margin: 20px 0px 0px 250px;
+	text-align: center;
+	font-family: 'Righteous', cursive;
+	list-style-type: none;
+	text-decoration: none;
+	background-color:rgba(68,68,68,0.2) ;
+	width: 900;
+	box-shadow: 0 10px 30px rgba(0,0,0,1);
+
+
+}
+.update{
+
+	height: 30px;
+	width: 65px;
+	list-style-type: none;
+	text-decoration: none;
+	color: black;
+	border: 1px solid white;
+	border-color: black;
+    font-size: 0.9em;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 10px;
+	font-family: Rockwell;
+	padding: 6px 6px 6px 6px;
+	color: #f719ff;
+	background-color:#BFC9CA ;
+}
+.update:hover{
+   box-shadow: 0 10px 30px rgba(0,0,0,1);
+   background-color: rgba(238,238,238,0.7);
+   transition: 0.05s ease; 
+   padding: 10px 5px 10px 5px;
+   color: black;
+
+}
+.new{
+ 
+  border: hidden;
+
+}
+.ndtable{
+	font-family: Rockwell;
+	border-radius: 3px;
+	height: 1.6em ;
+	
+	background-color: black;
+	box-shadow: 0 10px 30px rgba(0,0,0,1);
+	font-weight: bold;
+	color: white;
+	opacity: 0.8;
+}

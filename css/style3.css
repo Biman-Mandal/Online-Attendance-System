@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Grenze&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Code|Noto+Sans+HK&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pridi&display=swap');
+.botton{
+	
+	margin:0% 0% 0% 0%;
+	
+	color: #F2F3F4 ;
+	border: 1px hidden white;
+	border-color: black;
+	height: 20px;
+	font-size: 1em;
+	padding:0 3em;
+	cursor: pointer;
+	background-color: rgba(38, 12, 12, 0.62);
+	border-radius: 8px;
+	font-weight: 50;
+	font-weight: bold;
+	font-family: Rockwell;
+    
+}
+.botton:hover{
+   box-shadow: 0px 0px 1px 0.8px black; 
+   background-color: #FF9428;
+   transition: 0.2s ease; 
+}
+.td1{
+  font-weight: bold
+  font-family: 'Righteous', cursive;
+  border-radius: 7px;
+  border-right: hidden;
+  color: white;
+
+
+
+
+}
+.td3{
+
+  font-weight: bold;
+  font-family: 'Righteous', cursive;
+  border-radius: 7px;
+  border-right: hidden;
+  color: black;
+
+
+}
+
+
+.lol4{
+
+   border-right: hidden;
+   border-radius: 10px;
+   border-color: white;
+
+}
+.select11{
+	border-right: hidden;
+    border-radius: 10px;
+    border-color: white;
+    width: 150px;
+
+}
+.head{
+	font-weight: bold;
+	font-family: Rockwell;
+	background-color: red;
+
+}
+.table1{
+	
+	font-family: Rockwell;
+    font-weight: bold;
+	border-radius: 0px;
+	border-width: 1px;
+    height: 500px;
+	width: 300px;
+	border-right: hidden;
+	border-left: hidden;
+	border-color: black;
+	border-top: hidden;
+	border-bottom: hidden;
+	float: right;
+	margin: 10px 350px 0px 0px;
+
+
+}
+
+.table2{
+	 font-family: Rockwell;
+	float: left;
+	border-radius: 0px;
+	border-width: 1px;
+	height: 300px;
+	width: 200px;
+	border-right: hidden;
+	border-left: hidden;
+	border-color: black;
+	border-top: hidden;
+	border-bottom: hidden;
+    margin: 100px 0px 0px 400px;
+}
+.table5{
+	font-family: Rockwell;
+	float: left;
+	border-radius: 20px;
+	border-width: 1px;
+	height: 365px;
+	width: 450px;
+	border-right: hidden;
+	border-left: hidden;
+	border-color: black;
+	border-top: hidden;
+	border-bottom: hidden;
+    margin: 100px 0px 0px 400px;
+    background-color: rgba(221,221,221,0.8);
+    box-shadow: 0.3px 0px 2px 2px white;
+}
+
+
+
+table{
+	border-right: hidden;
+	border-left: hidden;
+	border-color: black;
+	border-top: hidden;
+	border-bottom: hidden;
+	border-color: white;
+
+}
+
+.tr1{
+	margin-bottom: 5px;
+	border-radius: 8px;
+	background-image: url(img7.jpg);
+	font-family: 'Righteous', cursive;
+}
+.tr2{
+	background-image: url(img10.jpg);
+	color: #bfbfbf;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px 0.8px white;
+	margin-bottom: 5px;
+	border-radius: 8px;
+	animation: slider 20s infinite linear;
+	font-family: 'Pridi', serif;
+
+}
+
+.tr3{
+	background-image: url(img12.jpg);
+	color: #bfbfbf;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px 0.8px white;
+	margin-bottom: 5px;
+	border-radius: 8px;
+
+}
+.input{
+	border-radius: 10px;
+	text-align: center;
+	font-family: 'Righteous', cursive;
+	style="opacity: 0.92;
+	
+	
+
+}
+.input1{
+	border-radius: 10px;
+	text-align: center;
+	font-family: 'Righteous', cursive;
+	style:"opacity: 0.92";
+	width: 160px;
+	padding: 0px 0px 0px 55px;
+	
+
+}
+.input2{
+	border-radius: 10px;
+	text-align: center;
+	font-family: 'Righteous', cursive;
+	style:"opacity: 0.92";
+	width: 160px;
+	padding: 0px 0px 0px 34px;
+	
+
+}
+.option11{
+	border-radius: 10px;
+	text-align: center;
+	font-family: 'Righteous', cursive;
+	style="opacity: 0.92;
+
+}
+@keyframes slider{
+    
+    0%{background-image: url(img11.jpg);  }
+    60%{ background-image: url(img6.jpg); }
+    80%{ background-image: url(img10.jpg);  }
+    90%{background-image: url(img6.jpg);}
+
+}
