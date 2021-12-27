@@ -19,7 +19,6 @@
   <link rel="stylesheet" type="text/css" href="css/style2.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <body class="lol1">
-
 <div class="divimg" >
 <html lang="en">
 <?php 
@@ -31,14 +30,8 @@ include('session_config.php');
 <link href="https://fonts.googleapis.com/css?family=Notable&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet">
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-
- 
-      
-      <div class="div1">       
+      <div class="div1">
         <ul>
-
           <li ><a href="logout.php">Logout</a></li>
           <li class="dropdown2"><a href="#">About</a></li>
           <li><a href="#">Class Alloted</a> <ul>
@@ -59,10 +52,7 @@ include('session_config.php');
           </ul>
           </li>
           <li class="dropdown2"><a href="profile.php">Home</a></li>
-                             
         </ul>
-
-
       </div>
             <div class="br"></div>
             
